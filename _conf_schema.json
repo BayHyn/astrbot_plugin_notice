@@ -1,0 +1,26 @@
+{
+    "manage_group": {
+        "description": "管理群",
+        "type": "string",
+        "hint": "Bot会在管理群中进行通知，不填则私聊主人进行通知",
+        "default": ""
+    },
+    "group_ban_notice": {
+        "description": "禁言通知",
+        "type": "bool",
+        "hint": "",
+        "default": true
+    },
+   "group_admin_notice": {
+        "description": "管理员变动通知",
+        "type": "bool",
+        "hint": "",
+        "default": true
+    },
+    "group_change_notice": {
+        "description": "群成员变动通知",
+        "type": "bool",
+        "hint": "",
+        "default": true
+    }
+}
