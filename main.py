@@ -8,11 +8,11 @@ from astrbot.core.star.filter.event_message_type import EventMessageType
 
 
 @register(
-    "astrbot_plugin_tattle",
+    "astrbot_plugin_notice",
     "Zhalslar",
-    "告状插件",
-    "1.0.0",
-    "https://github.com/Zhalslar/astrbot_plugin_tattle",
+    "[仅aiocqhttp]通知助手，当bot被禁言/解禁、被踢出群/拉群、被取消管理员/设为管理员时，会向主人打小报告",
+    "1.0.1",
+    "https://github.com/Zhalslar/astrbot_plugin_notice",
 )
 class RereadPlugin(Star):
     def __init__(self, context: Context, config: AstrBotConfig):
@@ -85,7 +85,8 @@ class RereadPlugin(Star):
                 await client.send_group_msg(group_id=int(self.manage_group), message=message)
             elif self.admins_id:
                 for admin_id in self.admins_id:
-                    await client.send_private_msg(user_id=int(admin_id), message=message)
+                    if admin_id.isdigit():
+                        await client.send_private_msg(user_id=int(admin_id), message=message)
 
         # 群禁言事件
         if self.group_ban_notice and raw_message.get("notice_type") == "group_ban":
