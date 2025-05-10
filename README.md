@@ -40,7 +40,7 @@ git clone https://github.com/Zhalslar/astrbot_plugin_notice
 
 ### 示例图
 
-![db698c8ef529cf2d59f487d8838230f](https://github.com/user-attachments/assets/22c17a6f-c4cc-49b6-b214-eb0b5d04add6)
+![download](https://github.com/user-attachments/assets/81bf41f9-8f4f-4dbb-aad6-44337d96d290)
 
 ## 🤝 TODO
 
