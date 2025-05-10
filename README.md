@@ -47,6 +47,7 @@ git clone https://github.com/Zhalslar/astrbot_plugin_notice
 - [x] 禁言/j解禁通知
 - [x] 被踢/拉群通知
 - [x] 设为管理员/取消管理员通知
+- [ ] 被欺负时自动抽查对应群的最近消息
 
 ## 👥 贡献指南
 
