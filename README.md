@@ -47,7 +47,7 @@ git clone https://github.com/Zhalslar/astrbot_plugin_notice
 - [x] 禁言/j解禁通知
 - [x] 被踢/拉群通知
 - [x] 设为管理员/取消管理员通知
-- [ ] 被欺负时自动抽查对应群的最近消息
+- [x] 被欺负时自动抽查对应群的最近消息
 
 ## 👥 贡献指南
 
@@ -59,3 +59,4 @@ git clone https://github.com/Zhalslar/astrbot_plugin_notice
 ## 📌 注意事项
 
 - 想第一时间得到反馈的可以来作者的插件反馈群（QQ群）：460973561（不点star不给进）
+- 如果你想不仅仅是收到通知那么简单，可以试试[人际关系管理器](https://github.com/Zhalslar/astrbot_plugin_relationship)，此插件可进行退群等操作
