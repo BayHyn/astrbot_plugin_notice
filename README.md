@@ -16,6 +16,9 @@ _✨ [astrbot](https://github.com/AstrBotDevs/AstrBot) 通知插件 ✨_
 
 ## 🤝 介绍
 
+> **warning**:  
+> 本插件已停止更新维护，相关功能已整合到另一个插件：[人际关系管理器](https://github.com/Zhalslar/astrbot_plugin_relationship)
+
 bot被禁言/解禁、被踢出群/拉群、被取消管理员/设为管理员时，会向主人打小报告并转发这个群的消息 
 
 ## 📦 安装
